@@ -23,10 +23,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  freezed_annotation: 0.11.0+1
+  freezed_annotation: 
   flutter_state_notifier: 0.6.1
   analyzer: 0.39.14
   bubble: ^1.1.9+1
+  provider: ^4.3.3
+  http: 0.12.2
+  json_serializable:
+  convert:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -36,8 +40,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  freezed: 0.11.5
-  build_runner: 1.10.0
+  freezed: 
+  build_runner:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
